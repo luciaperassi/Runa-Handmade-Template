@@ -1,8 +1,7 @@
 .container-products{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 10px;
-    max-width: 700px;
+    grid-gap: 15px;
 }
 
 .product{
@@ -29,17 +28,40 @@
 }
 
 .product__price{
-    color: #f56b99;
+    color: rgb(128, 128, 128);
     font-weight: bold;
 }
 
 .product__icon{
     display: block;
     margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.product__icon:hover{
+    color: #f56b99;
 }
 
 .product__img{
     width: 100%;
-    height: 330px;
+    height: 200px;
     object-fit: cover;
+}
+
+@media screen and (min-width: 1024px){
+    .container-products{
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 15px;
+    }
+
+    .product__img{
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .product__img{
+        height: 400px;
+    }
 }

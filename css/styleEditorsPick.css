@@ -65,7 +65,16 @@
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px){
+  .container-editor{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+  }
 
+  .editor__item{
+    width: 48%;
+    box-shadow:0 15px 50px; 
+  }
 }
 

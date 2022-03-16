@@ -58,4 +58,27 @@
     .icon-menu{
         display: none;
     }
+
+    .main-nav{
+      visibility: visible;
+      opacity: 1;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .menu{
+      position: static;
+      width: 100%;
+      display: flex;
+      background: none;
+    }
+
+    .menu__link{
+      color:rgb(158, 157, 157);
+    }
+
+    .menu__link:hover{
+      background: #6e6a6b;
+      color: #f580a7;
+    }
   }

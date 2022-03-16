@@ -7,6 +7,8 @@
 
 .footer__txt{
     color: rgb(114, 113, 113);
+    border-bottom: 1px dotted rgba(114, 113, 113, 0.4);
+    padding-bottom: 20px;
 }
 
 .footer__link{
@@ -19,4 +21,21 @@
 .footer__tittle{
     border-top: 1px dotted rgba(114, 113, 113, 0.4);
     padding-top: 20px;
+}
+
+.copy{
+    color: #6b6767;
+}
+
+@media screen and (min-width:1024px){
+    .main-footer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 20px;
+    }
+
+    .copy{
+        grid-column-start: span 4;
+        text-align: right;
+    }
 }
