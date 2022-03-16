@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="icon" href="../img/icon-32x32.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleSlider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styleProducts.css">
+    <link rel="stylesheet" href="../css/styleEditorsPick.css">
+    <link rel="stylesheet" href="../css/styleTips.css">
+    <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/styleMenu.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <!-- Se divide en tres cont para que sea responsive-->
+            <div class="main-header__container">
+                <h1 class="main-header__title">Runa</h1>
+                <span class="icon-menu" id="btn-menu"><i class=" fa-solid fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Nosotras</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Productos</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Ayuda</span>
+                <p class="main-header__txt"><i class="fa-solid fa-phone"></i> Llama al 3476615421</p>
+            </div>
+            <div class="main-header__container">
+                <i class="fa-solid fa-user"></i>
+                <a href="" class="main-header__btn">Carrito <i class="fa-solid fa-cart-shopping"></i></a>
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i
+                    class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="../img/Diseño sin título.png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="../img/Diseño sin título (2).png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="../img/Diseño sin título (3).png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="../img/Diseño sin título (4).png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="../img/Diseño sin título (5).png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="../img/Diseño sin título (1).png" alt="" class="slider__img">
+                <div class="slider__content">
+                    <a href="https://drive.google.com/file/d/1Gkr6FebT1jJhwzwDPY269_Dag5tGwtWi/view"
+                        class="btn_runa">VER</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    </div>
+    <main class="main">
+        <div class="container">
+            <h2 class="main-tittle">
+                Novedades
+            </h2>
+            <section class="container-products">
+                <div class="product">
+                    <img src="../img/image0 (1).jpeg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__tittle">Kit Spa</h3>
+                        <span class="product__price">$500</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="../img/image0.jpeg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__tittle">Organizador</h3>
+                        <span class="product__price">$600</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="../img/image4.jpeg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__tittle">Org. + Portacosméticos</h3>
+                        <span class="product__price">$1300</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                    <img src="../img/image5.jpeg" alt="" class="product__img">
+                    <div class="product__description">
+                        <h3 class="product__tittle">Yerbera + Azucarera</h3>
+                        <span class="product__price">$1200</span>
+                    </div>
+                    <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+            </section>
+        </div>
+        <div class="container-editor">
+            <div class="editor__item">
+                <img src="../img/IMG_6409.jpg" alt="" class="editor__img">
+                <p class="editor__circle">Elegí tu favorito</p>
+            </div>
+            <div class="editor__item">
+                <img src="../img/IMG_6310.jpg" alt="" class="editor__img">
+                <p class="editor__circle">Elegí tu favorita</p>
+            </div>
+        </div>
+        <section class="container-tips">
+            <div class="tip">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h2 class="tip__tittle">Variedad de productos</h2>
+                <p class="tip__txt">Conocé nuestros clásicos y también todo lo que hacemos personalizado.</p>
+                <a href="" class="btn_runa">Comprar</a>
+            </div>
+            <div class="tip">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h2 class="tip__tittle">Envíos a todo el país</h2>
+                <p class="tip__txt">Realizamos envíos dentro de Rosario, Serodino y a todo el país. Consultanos.</p>
+            </div>
+            <div class="tip">
+                <i class="fa-solid fa-gears"></i>
+                <h2 class="tip__tittle">Calidad garantizada</h2>
+                <p class="tip__txt">Nuestros productos son realizados totalmente a mano y con materia prima de gran calidad.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h3 class="footer__tittle">Sobre nosotras</h3>
+            <p class="footer__txt">Somos Marina y Lucía .....</p>
+        </div>
+        <div class="footer__section">
+            <h3 class="footer__tittle">Ubicación</h2>
+            <p class="footer__txt">Rosario / Serodino - Sta Fe.</p>
+        </div>
+        <div class="footer__section">
+            <h3 class="footer__tittle">Contacto</h3>
+            <p class="footer__txt">Email: runahandmade_@hotmail.com</p>
+            <p class="footer__txt">Tel: 3412639093 / 3476615421</p>
+        </div>
+        <div class="footer__section">
+            <h3 class="footer__tittle">Links</h3>
+            <a class="footer__link" href="">Instagram</a>
+            <a class="footer__link" href="">Visitanos en Runa Ambos</a>
+        </div>
+        <p class="copy">© 2022 Runahandmade. Designed by Lucía Perassi</p>
+    </footer>
+    <script src="../js/slider.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>

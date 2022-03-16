@@ -1,0 +1,22 @@
+.main-footer{
+    background-color: #151515;
+    color: whitesmoke;
+    padding: 30px 20px;
+    font-size: 0.8em;
+}
+
+.footer__txt{
+    color: rgb(114, 113, 113);
+}
+
+.footer__link{
+    color: rgb(114, 113, 113);
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.footer__tittle{
+    border-top: 1px dotted rgba(114, 113, 113, 0.4);
+    padding-top: 20px;
+}

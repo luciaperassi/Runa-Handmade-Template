@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../fonts/Montserrat-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Wild Ones";
+  src: url(../fonts/Wild\ Ones\ Personal\ Use.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.637);
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.main {
+  padding: 0 20px;
+}
+
+.main-header {
+  padding: 0 20px;
+}
+
+.main-header__title {
+  text-align: center;
+  font-size: 4.5em;
+  margin: 10px 0;
+  color: #f56b99;
+  font-family: "Wild Ones";
+}
+
+.main-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__btn {
+  display: block;
+  padding: 10px 30px;
+  color: #454546;
+  border: 1px solid #454546;
+  text-decoration: none;
+}
+
+.main-header__input {
+  display: block;
+  padding: 10px;
+  width: 50%;
+}
+
+.btn_runa {
+  display: block;
+  border: 1px solid rgba(219, 49, 100, 0.74);
+  color: rgb(255, 255, 255);
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 120px;
+  margin: 10px auto;
+  transition: all 0.5s;
+}
+
+.btn_runa:hover{
+  background: rgba(219, 49, 100, 0.74);
+}
+
+
+
+/*Responsive*/
+
+@media screen and (min-width: 1024px) {
+  .main-header__container{
+
+  }
+  
+}
